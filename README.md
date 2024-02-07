@@ -38,6 +38,8 @@ Two methods were used to reorder the points in the shapes.txt file. Method 1 usi
 
 In this results section, we present the outputs of our model imported into PTV VISSIM. Additional visualizations are available in the folder [model_results_visualizations](/model_results_visualizations), while a video of the model during simulation can be viewed by following the link below: [results_video](https://youtu.be/fm3Ltio2lVY).
 
+![](img/reseau-complet-maps.png)
+
 ## Authors 
 
 This project was created by Baptiste Poffet as master thesis results presentation.
