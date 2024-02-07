@@ -1,25 +1,14 @@
-# lausanne_transport_network
+# Lausanne public transportation network
 
 This GitHub repository presents the results of a university thesis on the Lausanne 2024 transportation network, including a sorted GTFS dataset, modeling illustrations, and identified errors, aiming to enhance transportation simulation and planning.
 
+## Data
 
-
-
-
-
-Acces the site live: [https://melindafemminis.github.io/covid-europa-dataviz/](https://youtu.be/fm3Ltio2lVY)
-
-![](img/project_1.png)
-
-## Data 
+The data consist of 10 text files. These files collectively form a GTFS feed that was used for importing into the PTV VISSIM simulation software.
 
 ### Sources
 
-The COVID-19 statistics used in this project comes from [https://github.com/owid/covid-19-data/tree/master/public/data](https://github.com/owid/covid-19-data/tree/master/public/data). It is a publicly available dataset that is updated daily by [Our World Data](https://ourworldindata.org/coronavirus). The provide relevant informations about the pandemic such as *reproduction rate*, *vaccination*, *policy responses* and more. We choose to focus on two of those, **confirmed cases** and **confirmed deaths**. 
-
-The basemap used is [World Terrain Base](https://www.arcgis.com/home/item.html?id=c61ad8ab017d49e1a82f580ee1298931) from ERSI. 
-
-The coutries layer is a [geoJSON file ](https://github.com/leakyMirror/map-of-europe), modified to only keep European countries. 
+The data were sourced from the [opentransportdata platform](https://opentransportdata.swiss/en/group), [OpenStreetMap](https://www.openstreetmap.org/), and [viageo](https://viageo.ch/)
 
 ### Organisation 
 
