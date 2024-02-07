@@ -42,10 +42,10 @@ def filter_stop_times(trips_file_path, stops_file_path, stop_times_file_path, ou
                 out_stop_times_writer.writerow(row)
 
 # Chemins vers les fichiers
-trips_file_path = '/Users/baptiste/Desktop/GTFS_241123/trips.txt'  
-stops_file_path = '/Users/baptiste/Desktop/GTFS_241123/stops.txt'  
-stop_times_file_path = '/Users/baptiste/Desktop/GTFS_241123/full/stop_times.txt'  
-output_file_path = '/Users/baptiste/Desktop/GTFS_241123/stop_times.txt'  
+trips_file_path = '/Chemin/vers/le/fichier/filtered/trips.txt'  
+stops_file_path = '/Chemin/vers/le/fichier/filtered/stops.txt'  
+stop_times_file_path = '/Chemin/vers/le/fichier/original/stop_times.txt'  
+output_file_path = '/Chemin/vers/le/nouveau/fichier/filtered/stop_times.txt'  
 
 # Filtrer les stop_times et ecrire dans le fichier de sortie
 filter_stop_times(trips_file_path, stops_file_path, stop_times_file_path, output_file_path)

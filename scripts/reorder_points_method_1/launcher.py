@@ -7,14 +7,14 @@ start_time = time.time()
 
 def executer_scripts(nom_fichier):
     # Chemins des scripts
-    script1 = '/Users/baptiste/Desktop/osm2qgis/python/calcul_distance.py'
-    script2 = '/Users/baptiste/Desktop/osm2qgis/python/calcul_distance2.py'
-    script3 = '/Users/baptiste/Desktop/osm2qgis/python/reorder.py'
-    script4 = '/Users/baptiste/Desktop/osm2qgis/python/delete_col.py'
-    script5 = '/Users/baptiste/Desktop/osm2qgis/python/filter_doublon.py'
+    script1 = '/Chemin/vers/calcul_distance.py'
+    script2 = '/Chemin/vers/calcul_distance2.py'
+    script3 = '/Chemin/vers/reorder.py'
+    script4 = '/Chemin/vers/delete_col.py'
+    script5 = '/Chemin/vers/filter_doublon.py'
 
     # Chemin du fichier CSV specifique
-    csv_path = f'/Users/baptiste/Desktop/osm2qgis/csv/before/CSV/{nom_fichier}.csv'
+    csv_path = f'/Chemin/vers/le/fichier/contenant/les/noms/des/fichiers/csv/{nom_fichier}.csv'
 
     # Lire le fichier CSV specifique
     df = pd.read_csv(csv_path)
@@ -37,7 +37,7 @@ def executer_scripts(nom_fichier):
         print('Done ',i+1,"/",nombre_iterations+10)
 
 # Lire le fichier avec les noms des fichiers a traiter
-fichiers_df = pd.read_csv('/Users/baptiste/Desktop/osm2qgis/csv/exemple.csv')
+fichiers_df = pd.read_csv('/Chemin/vers/le/fichier/contenant/les/noms/des/fichiers/csv/')
 
 # Iterer sur chaque nom de fichier et executer les scripts
 for nom in fichiers_df['nom_fichier']:

@@ -33,9 +33,9 @@ def filter_transfers(stops_file_path, transfers_file_path, output_file_path):
                 out_transfers_writer.writerow(row)
 
 # Chemins vers les fichiers
-stops_file_path = '/Users/baptiste/Desktop/GTFS_241123/stops.txt'  
-transfers_file_path = '/Users/baptiste/Desktop/GTFS_241123/full/transfers.txt'  
-output_file_path = '/Users/baptiste/Desktop/GTFS_241123/transfers.txt'
+stops_file_path = '/Chemin/vers/le/fichier/filtred/stops.txt'  
+transfers_file_path = '/Chemin/vers/le/fichier/original/transfers.txt'  
+output_file_path = '/Chemin/vers/le/fichier/filtred/transfers.txt'
 
 # Filtrer les transfers et ecrire dans le fichier de sortie
 filter_transfers(stops_file_path, transfers_file_path, output_file_path)

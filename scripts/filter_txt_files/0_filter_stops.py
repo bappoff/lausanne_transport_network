@@ -55,12 +55,12 @@ def filter_stops(geojson_files, stops_file, new_stops_file, not_found_file):
                 not_found_writer.writerow(row)
 
 # Chemin vers les fichiers GeoJSON et stops.txt
-geojson_files = ['/Users/baptiste/Desktop/reseau_t-l/GeoJson/bus_stations.geojson', '/Users/baptiste/Desktop/reseau_t-l/GeoJson/metro_stations.geojson']
-stops_file = '/Users/baptiste/Downloads/gtfs_new/stops.txt'
+geojson_files = ['/Chemin/vers/le/fichier/bus_stations.geojson', '/Chemin/vers/le/fichier/metro_stations.geojson']
+stops_file = '/Chemin/vers/le/fichier/original/stops.txt'
 
 # Chemin vers les nouveaux fichiers
-new_stops_file = '/Users/baptiste/Desktop/GTFS_17.11/files_filtred/stops.txt'
-not_found_file = '/Users/baptiste/Desktop/GTFS_17.11/notfound.txt'
+new_stops_file = '/Chemin/vers/le/nouveau/fichier/filtered/stops.txt'
+not_found_file = '/Chemin/vers/le/fichier/notfound.txt'
 
 # Appel de la fonction de filtrage
 filter_stops(geojson_files, stops_file, new_stops_file, not_found_file)

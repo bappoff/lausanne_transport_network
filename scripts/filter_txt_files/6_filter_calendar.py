@@ -36,9 +36,9 @@ def filter_calendar(trips_file_path, calendar_file_path, output_file_path):
                 out_calendar_writer.writerow(row)
 
 # Chemins vers les fichiers
-trips_file_path = '/Users/baptiste/Desktop/GTFS_241123/trips.txt'  
-calendar_file_path = '/Users/baptiste/Desktop/GTFS_241123/full/calendar.txt' 
-output_file_path = '/Users/baptiste/Desktop/GTFS_241123/calendar.txt' 
+trips_file_path = '/Chemin/vers/le/fichier/filtered/trips.txt'  
+calendar_file_path = '/Chemin/vers/le/fichier/original/calendar.txt' 
+output_file_path = '/Chemin/vers/le/fichier/filtered/calendar.txt'
 
 # Filtrer le calendar et ecrire dans le fichier de sortie
 filter_calendar(trips_file_path, calendar_file_path, output_file_path)

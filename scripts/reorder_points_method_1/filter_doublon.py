@@ -5,7 +5,7 @@ import sys
 nom_fichier = sys.argv[1]  # Le premier argument est le nom du script, le second est votre argument
 
 # Utiliser nom_fichier pour charger le fichier CSV correspondant
-file_path = f'/Users/baptiste/Desktop/osm2qgis/csv/during/{nom_fichier}_step1.csv'
+file_path = f'/Chemin/vers/le/fichier/enregistre/apres/execution/de/delete_col.py/{nom_fichier}_step1.csv'
 # Continuer le reste du script en utilisant chemin_fichier_csv
 
 data = pd.read_csv(file_path)
@@ -18,5 +18,5 @@ data = data.reset_index(drop=True)
 data['vertex_ind'] = data.index
 
 # Sauvegarder les modifications
-new_file_path = f'/Users/baptiste/Desktop/osm2qgis/csv/during/{nom_fichier}_step2.csv'  
+new_file_path = f'/Chemin/vers/le/nouveau/fichier/csv/{nom_fichier}_step2.csv'  
 data.to_csv(new_file_path, index=False)

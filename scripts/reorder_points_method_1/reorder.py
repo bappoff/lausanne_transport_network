@@ -5,7 +5,7 @@ import sys
 nom_fichier = sys.argv[1]  # Le premier argument est le nom du script, le second est votre argument
 
 # Utiliser nom_fichier pour charger le fichier CSV correspondant
-df = pd.read_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/after/{nom_fichier}_final.csv')
+df = pd.read_csv(f'/Chemin/vers/le/fichier/enregistre/apres/execution/de/calcul_distance.py/{nom_fichier}_final.csv')
 
 # Fonction pour determiner l'ordre
 def determine_ordre(df):
@@ -45,4 +45,4 @@ df['vertex_ind'] = df['ordre']
 
 
 # Sauvegarder le fichier modifie
-df.to_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/during/{nom_fichier}_step4.csv', index=False)
+df.to_csv(f'/Chemin/vers/le/nouveau/fichier/csv/{nom_fichier}_step4.csv', index=False)

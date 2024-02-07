@@ -6,7 +6,7 @@ import sys
 nom_fichier = sys.argv[1]  # Le premier argument est le nom du script, le second est votre argument
 
 # Utiliser nom_fichier pour charger le fichier CSV correspondant
-df = pd.read_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/during/{nom_fichier}_step2.csv')
+df = pd.read_csv(f'/Chemin/vers/le/fichier/enregistre/apres/execution/de/filter_doublon.py/{nom_fichier}_step2.csv')
 
 
 # Fonction pour calculer la distance entre deux points
@@ -51,4 +51,4 @@ def distance_last_to_last(df):
 df['distance_last_to_last'] = distance_last_to_last(df)
 
 # Sauvegarder le fichier modifie
-df.to_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/after/{nom_fichier}_final.csv', index=False)
+df.to_csv(f'/Chemin/vers/le/nouveau/fichier/csv/{nom_fichier}_final.csv', index=False)

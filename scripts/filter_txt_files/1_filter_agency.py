@@ -1,5 +1,5 @@
-path_to_agency_file = '/Users/baptiste/Desktop/GTFS_241123/full/agency.txt'
-path_to_filtered_agency_file = '/Users/baptiste/Desktop/GTFS_241123/agency.txt'
+path_to_agency_file = '/Chemin/vers/le/fichier/original/agency.txt'
+path_to_filtered_agency_file = '/Chemin/vers/le/nouveau/fichier/filtered/agency.txt'
 
 # Lire le fichier agency et ecrire les lignes correspondantes dans le nouveau fichier
 with open(path_to_agency_file, 'r', encoding='utf-8') as agency_file, \

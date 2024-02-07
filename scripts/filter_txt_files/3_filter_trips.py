@@ -1,6 +1,6 @@
-path_to_routes_file = '/Users/baptiste/Desktop/GTFS_241123/routes.txt'
-path_to_trips_file = '/Users/baptiste/Desktop/GTFS_241123/full/trips.txt'
-path_to_filtered_trips_file = '/Users/baptiste/Desktop/GTFS_241123/trips.txt'
+path_to_routes_file = '/Chemin/vers/le/fichier/filtered/routes.txt'
+path_to_trips_file = '/Chemin/vers/le/fichier/original/trips.txt'
+path_to_filtered_trips_file = '/Chemin/vers/le/nouveau/fichier/filtered/trips.txt'
 
 # Lire le fichier routes et stocker les route_id dans un ensemble
 route_ids = set()

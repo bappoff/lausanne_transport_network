@@ -1,6 +1,6 @@
-path_to_agency_file = '/Users/baptiste/Desktop/GTFS_241123/agency.txt'
-path_to_routes_file = '/Users/baptiste/Desktop/GTFS_241123/full/routes.txt'
-path_to_filtered_routes_file = '/Users/baptiste/Desktop/GTFS_241123/routes.txt'
+path_to_agency_file = '/Chemin/vers/le/fichier/filtered/agency.txt'
+path_to_routes_file = '/Chemin/vers/le/fichier/original/routes.txt'
+path_to_filtered_routes_file = '/Chemin/vers/le/nouveau/fichier/filtered/routes.txt'
 
 # Lire le fichier agency et recuperer les agency_id
 agency_ids = set()

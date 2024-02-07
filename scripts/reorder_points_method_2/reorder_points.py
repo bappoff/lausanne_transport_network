@@ -13,7 +13,7 @@ def calculer_distance(lat1, lon1, lat2, lon2):
 def run_script(nom_fichier, premier_point):
     print(nom_fichier)
     # Charger les donnees
-    data = pd.read_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/after/{nom_fichier}.csv')
+    data = pd.read_csv(f'/Chemin/vers/le/dossier/contenant/les/fichiers/csv/{nom_fichier}.csv')
 
     colonnes_a_supprimer = ['other_tags', 'distance', 'angle', 'WKT', 'WKT.1', 'Nouvel_Ord','ordre']
     # Boucle sur la liste des colonnes et suppression si elles existent
@@ -53,12 +53,12 @@ def run_script(nom_fichier, premier_point):
     data = data.sort_values(by='Nouvel_Ordre')
 
     # Sauvegarder les resultats
-    data.to_csv(f'/Users/baptiste/Desktop/osm2qgis/csv/after/{nom_fichier}_final.csv', index=False)
+    data.to_csv(f'/Chemin/vers/le/dossier/de/sauvegarde/{nom_fichier}_final.csv', index=False)
 
 
 
 # Lire le fichier avec les noms des fichiers a traiter
-fichiers_df = pd.read_csv('/Users/baptiste/Desktop/osm2qgis/csv/csv_to_traiter/lines_to_reorder.csv')
+fichiers_df = pd.read_csv('/Chemin/vers/le/dossier/contenant/les/noms/de/fichiers/csv/')
 #print(fichiers_df)
 
 # Iterer sur chaque nom de fichier et executer les scripts
