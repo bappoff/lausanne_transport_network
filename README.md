@@ -1,12 +1,13 @@
 # lausanne_transport_network
-Ce dépôt GitHub présente les résultats d'un mémoire universitaire sur le réseau de transport de Lausanne 2024, incluant un jeu de données GTFS trié, des illustrations de modélisation et les erreurs identifiées, visant à améliorer la simulation et planification des transports.
+
+This GitHub repository presents the results of a university thesis on the Lausanne 2024 transportation network, including a sorted GTFS dataset, modeling illustrations, and identified errors, aiming to enhance transportation simulation and planning.
 
 
 
 
 
 
-Acces the site live: [https://melindafemminis.github.io/covid-europa-dataviz/](https://melindafemminis.github.io/covid-europa-dataviz/)
+Acces the site live: [https://melindafemminis.github.io/covid-europa-dataviz/](https://youtu.be/fm3Ltio2lVY)
 
 ![](img/project_1.png)
 
