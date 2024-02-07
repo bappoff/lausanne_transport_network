@@ -4,7 +4,8 @@ This GitHub repository presents the results of a university thesis on the Lausan
 
 ## Data
 
-The data consist of 10 text files. These files collectively form a GTFS feed that was used for importing into the PTV VISSIM simulation software.
+Initially, the dataset includes 9 text files. Following processing, it transforms into 9 text files refined as per the methodology outlined in the [nom du chapitre](#Filter) section, supplemented by an additional text file detailing the precise trajectories of public transport vehicles.
+These files collectively form a GTFS feed that was used for importing into the PTV VISSIM simulation software.
 
 ### Sources
 
@@ -17,6 +18,7 @@ The data are structured according to the layout illustrated in the image below.
 ![](img/GTFS-structure.png)
 
 ## Functionnalities
+### Filter
 
 
 ![](img/Workflow.jpg)
